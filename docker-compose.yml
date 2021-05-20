@@ -1,0 +1,8 @@
+services:
+  polinomic_regresion:
+    build: .
+    container_name: ml_practice
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/opt/ml_practice
